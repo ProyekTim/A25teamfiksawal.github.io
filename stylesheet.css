@@ -1,0 +1,220 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear:left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: 800;
+  float: left;
+  font-family: fantasy;
+  color: grey;
+}
+
+.menu {
+  float: right;
+}
+
+header {
+  line-height: 70px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  background: rgb(254, 255, 255);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  border-bottom: 1px solid #363f6b;
+}
+
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+header ul li {
+  float: left;
+}
+
+header ul li a {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 0px 16px 0px 16px;
+  text-decoration: none; 
+}
+
+header ul li a:hover {
+  text-decoration: underline;
+}
+
+section {
+  margin: auto;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+a.signup {
+  background: #364f6b;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 15px 20px 15px 20px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+a.signup:hover {
+  background: #fc5185;
+  text-decoration: none;
+}
+
+body {
+  margin:auto;
+  font-family: "Lucida Grande";
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image:url(https://img.beritasatu.com/cache/beritasatu/910x580-2/301481430953.jpg);
+  background-size: cover;
+  color:ghostwhite;
+  text-align:center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+ 
+.wisata-wrapper {
+  height: 500px;
+  padding-bottom: 100px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: white;
+  text-align: center;
+}
+  
+.wisata {
+  float: left;
+  width: 25%;
+}
+ 
+.wisata-icon {
+  position: relative;
+}
+
+.wisata-icon img {
+  height: 200px;
+  width: 200px;
+}
+
+.wisata-icon p {
+  position: absolute;
+  top: 160px;
+  width: 100%;
+  color: white;
+}
+
+.heading {
+  padding-top: 15px;
+  padding-bottom: 30px;
+  color: #0c0c0c;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.makanan-wrapper {
+  height: 700px;
+  padding-bottom: 120px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: white;
+  text-align: center;
+}
+
+.makanan {
+  float: left;
+  width: 25%;
+}
+
+.makanan-icon {
+  position: relative;
+}
+
+.makanan-icon p {
+  position: absolute;
+  top: 160px;
+  width: 100%;
+  color: white;
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 15px;
+  color: #2727dfd2;
+}
+
+footer {
+  background-color: #2f5167;
+  background-size: cover;
+  margin: 0 auto;
+  color: #fff;
+  height: 150px;
+  padding: 20px;
+  display: flex;
+  padding: fixed;
+  width: 100%;
+  z-index: 10;
+}
+ 
+.footer-logo {
+  font-size: 35px;
+  float: left;
+  margin-top: 30px;
+}
+ 
+.footer-list {
+  float: right;
+}
+ 
+footer ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+
+.footer-list li {
+  padding-bottom: 10px;
+}
